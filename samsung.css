@@ -1,0 +1,227 @@
+body{
+    font-family: 'SamsungSharpSans',arial,sans-serif;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+header{
+    display: flex;
+    margin:30px;
+}
+.head1{
+    display: flex;
+    width:750px;
+    font-size: 15px;
+    justify-content: space-between;
+    margin-left: 10px;
+     padding: 10px; 
+    font-weight: bold;
+}
+.head1 a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 15px;
+}
+.head2{
+    display: flex;
+    width:170px;
+    justify-content: space-between;
+    position: relative;
+    left: 100px;
+    margin-left: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+#sec1{
+    margin: 20px;
+}
+#ban{
+    height:700px;
+    width: 100%;
+    background-image: url(./tv\ bg.jpg);
+    background-size: cover;
+    transition: all 2s;
+}
+#ban:hover{
+    background-image: url(./washing\ machine.webp);
+    background-size: cover;
+}
+.sec01{
+    color:white;
+    transform: translate(750px,-400px);
+    font-size: 20px;
+   
+}
+.buttn{
+    background-color: white;
+    height: 30px;
+    width:100px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#sec2{
+    text-align: center;
+    position: relative;
+    top:-100px;
+}
+#sec02{
+    display: flex;
+    width:700px;
+    justify-content: space-between;
+    margin-left: 350px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#sec02 a:hover{
+    color:rgb(113, 98, 98);
+}
+#New{
+    text-decoration: underline;
+}
+.heading{
+    font-size: 40px;
+}
+.Highlight{
+    display: flex;
+    position: relative;
+    left:720px;
+    top:-850px;
+}
+.sec3 img{
+   box-shadow: 0px 0px  10px white;
+    border-radius: 20px;
+    margin: 15px;
+}
+.sec3 img:hover{
+    transform: scale(1.07);
+}
+.highlights{
+    margin-top: -90px;
+}
+.highlights h3{
+    position:relative;
+    left:50px;
+    top:-100px;
+}
+#ody{
+   color:white;
+    transform: translate(200px,-200px);
+}
+.galaxy{
+    width:1100px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-left: 200px;
+    font-size: 20px;
+}
+.galaxy a:hover{
+    background-color: rgb(251, 249, 249);
+    padding: 12px;
+    border-radius: 25px;
+}
+.sec4{
+    text-align: center;
+    position:relative;
+    top:-1000px;
+}
+#gal{
+    transform: translateY(150px);
+}
+#gal1,.sec5{
+    transform: translateY(-250px);
+}
+.sec6{
+    transform: translateY(-550px); 
+}
+.watch{
+    background-color: rgb(243, 243, 243);
+}
+#feature{
+    display: flex;
+    width:1100px;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+.button2{
+    background-color: black;
+    color: white;
+    width:150px;
+}
+.button1{
+    border-radius: 20px;
+    padding:5px;
+}
+.sec7{
+    margin-top: -150px;
+}
+#explore{
+    display:flex;
+    margin:30px;
+    justify-content: space-around;
+}
+#explore img{
+    border-radius: 20px;
+    cursor: pointer;
+}
+#explore img:hover{
+    transform: scale(1.1);
+}
+.sec8{
+    position: relative;
+    top:-890px;
+}
+#sec08{
+    text-align: center;
+    padding:30px;
+}
+#foot1{
+    display: flex;
+    border: 1px solid;
+    justify-content: center;
+    width:500px;
+    border-radius: 25px;
+}
+footer input{
+    width:400px;
+    height:50px;
+    outline: none;
+    border: none;
+}
+.look{
+ margin-left: 470px;
+ padding:30px;
+}
+.look button{
+    padding:5px;
+    margin: 5px;
+    border-radius: 25px;
+    background-color: white;
+    border-color: aliceblue;
+}
+footer ul,#foot2{
+    list-style-type: none;
+    font-size: 13px;
+    color:rgb(73, 71, 71);
+    padding: 20px;
+}
+#foot01{
+    display: flex;
+    justify-content: space-around;
+}
+.foot3{
+    display: flex;
+    color: rgb(70, 68, 68);
+    font-size: 13px;
+    justify-content: space-between;
+
+}
+.foot02{
+    justify-content: space-between;
+    width:350px;
+}
